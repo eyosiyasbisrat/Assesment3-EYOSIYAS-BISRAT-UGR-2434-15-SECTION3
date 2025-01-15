@@ -5,22 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Calculator</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body>
     <div class="header">
         <ul>EYOSIYAS BISRAT</ul>
         <ul>UGR/2434/15</ul>
         <ul>SECTION 3</ul>
     </div>
-    <link rel="stylesheet" href="src/css/styles.css">
 
-</head>
-
-<body>
     <div class="calculator">
-       
         <input type="text" id="display" disabled>
 
         <div class="buttons">
-         
             <button onclick="appendToDisplay('7')">7</button>
             <button onclick="appendToDisplay('8')">8</button>
             <button onclick="appendToDisplay('9')">9</button>
@@ -38,15 +36,11 @@
             <button onclick="calculateResult()">=</button>
             <button onclick="appendToDisplay('+')">+</button>
             <button onclick="clearDisplay()">C</button>
-
-           
             <button id="backButton" onclick="backspace()">&#9003;</button>
         </div>
     </div>
 
     <script src="src/js/calculator.js"></script>
-
-
 </body>
 
 </html>
